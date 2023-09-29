@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <title>2048 Game</title>
+</head>
+<body>
+    <div class="game-container">
+        <h1>2048</h1>
+        <p>Join the numbers and get to the 2048 tile!</p>
+        <p>Score: <span id="score">0</span></p>
+        <div class="game-board">
+            {% for row in board %}
+                <div class="row">
+                    {% for cell in row %}
+                        <div class="cell cell-{{ cell }}">{{ cell if cell > 0 else '' }}</div>
+                    {% endfor %}
+                </div>
+            {% endfor %}
+        </div>
+        <p id="game-over-message" class="hidden">Game Over!</p>
+    </div>
+    
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>

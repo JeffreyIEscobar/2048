@@ -1,0 +1,76 @@
+/* Reset default margin and padding */
+html, body, div, h1, p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #faf8ef;
+}
+
+/* Game container */
+.game-container {
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Game header */
+.game-header h1 {
+    font-size: 3em;
+    color: #776e65;
+    margin-bottom: 10px;
+}
+
+.game-header p {
+    font-size: 1.5em;
+    color: #776e65;
+    margin-bottom: 20px;
+}
+
+/* Game board */
+.game-board {
+    background-color: #bbada0;
+    border-radius: 5px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.cell {
+    width: 100px;
+    height: 100px;
+    background-color: #cdc1b4;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.5em;
+    font-weight: bold;
+    color: #776e65;
+}
+
+/* Game footer */
+.game-footer p {
+    font-size: 1.2em;
+    color: #776e65;
+    margin-top: 10px;
+}
+
+/* Styling for specific tile values */
+.cell.cell-2 { background-color: #eee4da; color: #776e65; }
+.cell.cell-4 { background-color: #ede0c8; color: #776e65; }
+.cell.cell-8 { background-color: #f2b179; color: #f9f6f2; }
+.cell.cell-16 { background-color: #f59563; color: #f9f6f2; }
+.cell.cell-32 { background-color: #f67c5f; color: #f9f6f2; }
+.cell.cell-64 { background-color: #f65e3b; color: #f9f6f2; }
+.cell.cell-128 { background-color: #edcf72; color: #f9f6f2; }
+.cell.cell-256 { background-color: #edcc61; color: #f9f6f2; }
+.cell.cell-512 { background-color: #edc850; color: #f9f6f2; }
+.cell.cell-1024 { background-color: #edc53f; color: #f9f6f2; }
+.cell.cell-2048 { background-color: #edc22e; color: #f9f6f2; }
