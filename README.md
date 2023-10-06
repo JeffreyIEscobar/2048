@@ -7,3 +7,6 @@ A simple 2048 game implemented using JavaScript, Python, HTML, and CSS
 - **CSS:** 
 - **JavaScript:**
 - **Python**
+
+## How to Play
+
