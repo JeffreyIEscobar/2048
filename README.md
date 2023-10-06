@@ -10,3 +10,4 @@ A simple 2048 game implemented using JavaScript, Python, HTML, and CSS
 
 ## How to Play
 
+1. Run `app.py`
