@@ -31,7 +31,6 @@ This is an implementation of the 2048 game in Python, Flask, and JavaScript.
 
 Contributions are welcome! If you'd like to enhance or customize this application, feel free to fork this repository and submit a pull request.
 
-
 ## Credits
 
 This project is inspired by the original 2048 game created by Gabriele Cirulli.
