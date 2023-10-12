@@ -28,7 +28,8 @@ This is an implementation of the 2048 game in Python, Flask, and JavaScript.
 - jQuery
   
 ## Contributing
-Contributions are welcome! If you'd like to enhance or customize this application,
+Contributions are welcome! If you'd like to enhance or customize this application, feel free to fork this repository and submit a pull request.
+
 
 ## Credits
 
